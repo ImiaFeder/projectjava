@@ -24,8 +24,6 @@ public class transpos {
 
         }
         
-       
-
         System.out.println("");
 
    
@@ -47,31 +45,16 @@ public class transpos {
         }
         System.out.println("\n");
         
-       //arr[0] length = 2
-       //arr length = 3
-       //arrT[2][3]
         int[][] arrT = new int[(int)arr0[0].length][(int)arr0.length];
     
         for (int b = 0; b < arr0[0].length; b++) {
             for (int x =0; x< arr0.length; x++) {
            
                 arrT[b][x] = arr0[x][b];
-            }
-        }
-        
-            
-        
-            
-    
-            for (int t = 0; t < (int)arrT.length; t++) {
-                for (int g = 0; g < arrT[0].length; g++) {
-                    System.out.print(arrT[t][g]+" ");
-                }
-                System.out.println("");
+                System.out.print(arrT[b][x]+" ");
             }
             System.out.println("");
-           
-
+        }
         
     }   
         
