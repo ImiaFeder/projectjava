@@ -19,7 +19,7 @@ class peluang {
         
 
         int[] angkaDapat = new int[panjang];
-        for(int j = 0; j == j; j++) {
+        for(int j = 0; j >= j; j++) {
             
             char ch[] = new char[panjang];
             
